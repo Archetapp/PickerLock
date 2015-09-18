@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACE01E801BABAC2500A0F9CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE01E7F1BABAC2500A0F9CD /* AppDelegate.swift */; };
+		ACE01E821BABAC2500A0F9CD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACE01E811BABAC2500A0F9CD /* GameScene.sks */; };
+		ACE01E841BABAC2500A0F9CD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE01E831BABAC2500A0F9CD /* GameScene.swift */; };
+		ACE01E861BABAC2500A0F9CD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE01E851BABAC2500A0F9CD /* GameViewController.swift */; };
+		ACE01E891BABAC2500A0F9CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE01E871BABAC2500A0F9CD /* Main.storyboard */; };
+		ACE01E8B1BABAC2500A0F9CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE01E8A1BABAC2500A0F9CD /* Images.xcassets */; };
+		ACE01E8E1BABAC2500A0F9CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE01E8C1BABAC2500A0F9CD /* LaunchScreen.xib */; };
+		ACE01E9A1BABAC2500A0F9CD /* PickerLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE01E991BABAC2500A0F9CD /* PickerLockTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACE01E941BABAC2500A0F9CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE01E721BABAC2500A0F9CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE01E791BABAC2500A0F9CD;
+			remoteInfo = PickerLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACE01E7A1BABAC2500A0F9CD /* PickerLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE01E7E1BABAC2500A0F9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE01E7F1BABAC2500A0F9CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACE01E811BABAC2500A0F9CD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		ACE01E831BABAC2500A0F9CD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		ACE01E851BABAC2500A0F9CD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ACE01E881BABAC2500A0F9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACE01E8A1BABAC2500A0F9CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACE01E8D1BABAC2500A0F9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ACE01E931BABAC2500A0F9CD /* PickerLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE01E981BABAC2500A0F9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE01E991BABAC2500A0F9CD /* PickerLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerLockTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE01E771BABAC2500A0F9CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE01E901BABAC2500A0F9CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACE01E711BABAC2500A0F9CD = {
+			isa = PBXGroup;
+			children = (
+				ACE01E7C1BABAC2500A0F9CD /* PickerLock */,
+				ACE01E961BABAC2500A0F9CD /* PickerLockTests */,
+				ACE01E7B1BABAC2500A0F9CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE01E7B1BABAC2500A0F9CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE01E7A1BABAC2500A0F9CD /* PickerLock.app */,
+				ACE01E931BABAC2500A0F9CD /* PickerLockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE01E7C1BABAC2500A0F9CD /* PickerLock */ = {
+			isa = PBXGroup;
+			children = (
+				ACE01E7F1BABAC2500A0F9CD /* AppDelegate.swift */,
+				ACE01E811BABAC2500A0F9CD /* GameScene.sks */,
+				ACE01E831BABAC2500A0F9CD /* GameScene.swift */,
+				ACE01E851BABAC2500A0F9CD /* GameViewController.swift */,
+				ACE01E871BABAC2500A0F9CD /* Main.storyboard */,
+				ACE01E8A1BABAC2500A0F9CD /* Images.xcassets */,
+				ACE01E8C1BABAC2500A0F9CD /* LaunchScreen.xib */,
+				ACE01E7D1BABAC2500A0F9CD /* Supporting Files */,
+			);
+			path = PickerLock;
+			sourceTree = "<group>";
+		};
+		ACE01E7D1BABAC2500A0F9CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACE01E7E1BABAC2500A0F9CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACE01E961BABAC2500A0F9CD /* PickerLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE01E991BABAC2500A0F9CD /* PickerLockTests.swift */,
+				ACE01E971BABAC2500A0F9CD /* Supporting Files */,
+			);
+			path = PickerLockTests;
+			sourceTree = "<group>";
+		};
+		ACE01E971BABAC2500A0F9CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACE01E981BABAC2500A0F9CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE01E791BABAC2500A0F9CD /* PickerLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE01E9D1BABAC2500A0F9CD /* Build configuration list for PBXNativeTarget "PickerLock" */;
+			buildPhases = (
+				ACE01E761BABAC2500A0F9CD /* Sources */,
+				ACE01E771BABAC2500A0F9CD /* Frameworks */,
+				ACE01E781BABAC2500A0F9CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickerLock;
+			productName = PickerLock;
+			productReference = ACE01E7A1BABAC2500A0F9CD /* PickerLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACE01E921BABAC2500A0F9CD /* PickerLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE01EA01BABAC2500A0F9CD /* Build configuration list for PBXNativeTarget "PickerLockTests" */;
+			buildPhases = (
+				ACE01E8F1BABAC2500A0F9CD /* Sources */,
+				ACE01E901BABAC2500A0F9CD /* Frameworks */,
+				ACE01E911BABAC2500A0F9CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE01E951BABAC2500A0F9CD /* PBXTargetDependency */,
+			);
+			name = PickerLockTests;
+			productName = PickerLockTests;
+			productReference = ACE01E931BABAC2500A0F9CD /* PickerLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE01E721BABAC2500A0F9CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Archetapp;
+				TargetAttributes = {
+					ACE01E791BABAC2500A0F9CD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					ACE01E921BABAC2500A0F9CD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = ACE01E791BABAC2500A0F9CD;
+					};
+				};
+			};
+			buildConfigurationList = ACE01E751BABAC2500A0F9CD /* Build configuration list for PBXProject "PickerLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE01E711BABAC2500A0F9CD;
+			productRefGroup = ACE01E7B1BABAC2500A0F9CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE01E791BABAC2500A0F9CD /* PickerLock */,
+				ACE01E921BABAC2500A0F9CD /* PickerLockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE01E781BABAC2500A0F9CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE01E8E1BABAC2500A0F9CD /* LaunchScreen.xib in Resources */,
+				ACE01E8B1BABAC2500A0F9CD /* Images.xcassets in Resources */,
+				ACE01E821BABAC2500A0F9CD /* GameScene.sks in Resources */,
+				ACE01E891BABAC2500A0F9CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE01E911BABAC2500A0F9CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE01E761BABAC2500A0F9CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE01E841BABAC2500A0F9CD /* GameScene.swift in Sources */,
+				ACE01E861BABAC2500A0F9CD /* GameViewController.swift in Sources */,
+				ACE01E801BABAC2500A0F9CD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE01E8F1BABAC2500A0F9CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE01E9A1BABAC2500A0F9CD /* PickerLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACE01E951BABAC2500A0F9CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE01E791BABAC2500A0F9CD /* PickerLock */;
+			targetProxy = ACE01E941BABAC2500A0F9CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACE01E871BABAC2500A0F9CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE01E881BABAC2500A0F9CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACE01E8C1BABAC2500A0F9CD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE01E8D1BABAC2500A0F9CD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE01E9B1BABAC2500A0F9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACE01E9C1BABAC2500A0F9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACE01E9E1BABAC2500A0F9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACE01E9F1BABAC2500A0F9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PickerLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACE01EA11BABAC2500A0F9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PickerLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickerLock.app/PickerLock";
+			};
+			name = Debug;
+		};
+		ACE01EA21BABAC2500A0F9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PickerLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickerLock.app/PickerLock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE01E751BABAC2500A0F9CD /* Build configuration list for PBXProject "PickerLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE01E9B1BABAC2500A0F9CD /* Debug */,
+				ACE01E9C1BABAC2500A0F9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE01E9D1BABAC2500A0F9CD /* Build configuration list for PBXNativeTarget "PickerLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE01E9E1BABAC2500A0F9CD /* Debug */,
+				ACE01E9F1BABAC2500A0F9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACE01EA01BABAC2500A0F9CD /* Build configuration list for PBXNativeTarget "PickerLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE01EA11BABAC2500A0F9CD /* Debug */,
+				ACE01EA21BABAC2500A0F9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACE01E721BABAC2500A0F9CD /* Project object */;
+}
