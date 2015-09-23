@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC113B4C1BB2032C001E8C95 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC113B4B1BB2032C001E8C95 /* CGFloatExtension.swift */; settings = {ASSET_TAGS = (); }; };
 		ACE01E801BABAC2500A0F9CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE01E7F1BABAC2500A0F9CD /* AppDelegate.swift */; };
 		ACE01E821BABAC2500A0F9CD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACE01E811BABAC2500A0F9CD /* GameScene.sks */; };
 		ACE01E841BABAC2500A0F9CD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE01E831BABAC2500A0F9CD /* GameScene.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC113B4B1BB2032C001E8C95 /* CGFloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGFloatExtension.swift; path = ../CGFloatExtension.swift; sourceTree = "<group>"; };
 		ACE01E7A1BABAC2500A0F9CD /* PickerLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE01E7E1BABAC2500A0F9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACE01E7F1BABAC2500A0F9CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				ACE01E7F1BABAC2500A0F9CD /* AppDelegate.swift */,
 				ACE01E811BABAC2500A0F9CD /* GameScene.sks */,
 				ACE01E831BABAC2500A0F9CD /* GameScene.swift */,
+				AC113B4B1BB2032C001E8C95 /* CGFloatExtension.swift */,
 				ACE01E851BABAC2500A0F9CD /* GameViewController.swift */,
 				ACE01E871BABAC2500A0F9CD /* Main.storyboard */,
 				ACE01E8A1BABAC2500A0F9CD /* Images.xcassets */,
@@ -162,6 +165,8 @@
 		ACE01E721BABAC2500A0F9CD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Archetapp;
 				TargetAttributes = {
@@ -221,6 +226,7 @@
 			files = (
 				ACE01E841BABAC2500A0F9CD /* GameScene.swift in Sources */,
 				ACE01E861BABAC2500A0F9CD /* GameViewController.swift in Sources */,
+				AC113B4C1BB2032C001E8C95 /* CGFloatExtension.swift in Sources */,
 				ACE01E801BABAC2500A0F9CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +425,7 @@
 				ACE01E9F1BABAC2500A0F9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACE01EA01BABAC2500A0F9CD /* Build configuration list for PBXNativeTarget "PickerLockTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +434,7 @@
 				ACE01EA21BABAC2500A0F9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
